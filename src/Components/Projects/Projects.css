@@ -1,0 +1,85 @@
+.projects-container {
+  background-color: coral;
+}
+
+.projects-header {
+    font-size: 5vmin;
+    margin-top: 15vmin;
+    margin-bottom: 13vmin;
+}
+
+.project-wrapper {
+    margin-top: 5vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 32vmin;
+    margin-bottom: 5vmin;
+    margin-top: -10vmin;
+}
+  
+.project-one-image {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32vmin;
+    margin-bottom: 10vmin;
+    height: 35vmin;
+    width: 35vmin
+}
+.project-two-image {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32vmin;
+    margin-bottom: 0vmin;
+    height: 40vmin;
+    width: 45vmin
+}
+.project-three-image {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32vmin;
+    margin-bottom: 5vmin;
+    height: 40vmin;
+    width: 42vmin
+}
+.project-four-image {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32vmin;
+    margin-bottom: 5vmin;
+    height: 43vmin;
+    width: 43vmin
+}
+  
+.project-title {
+    font-size: 4vmin;
+    margin-bottom: 1.5vmin;
+}
+  
+.project-description {
+    font-size: 18px;
+    width: 38vmin;
+    text-align: left;
+}
+  
+.project-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+  
+.project-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.project-buttons > a {
+    margin-right: 3vmin;
+}

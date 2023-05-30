@@ -1,0 +1,68 @@
+.contact-container {
+    text-align: center;
+    background-color: bisque;
+}
+  
+.contact-header {
+    font-size: 5vmin;
+    padding-top: 10vmin;
+    padding-bottom: 7vmin;
+}
+  
+.contact-icons a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 5vmin 5vmin 0; 
+    position: relative;
+    transition: transform 0.3s;
+}
+  
+.contact-icons a:hover {
+    transform: scale(1.3);
+}
+  
+.contact-names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vmin;
+}
+  
+.contact-names p {
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 25vmin;
+    margin-right: 25vmin;
+    padding-bottom: 10vmin;
+}
+  
+.contact-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vmin;
+}
+  
+.contact-icons img {
+    width: 13vmin;
+    height: 13vmin;
+    margin-bottom: 2vmin;
+}
+  
+.contact-icon p {
+    margin-top: 1vmin;
+}
+
+.thanks {
+    font-size: 2.5vmin;
+    opacity: 75%;
+    margin-bottom: -2vmin;
+}
