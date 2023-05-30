@@ -3,7 +3,7 @@
 }
 
 .projects-header {
-    font-size: 5vmin;
+    font-size: 6vmin;
     margin-top: 15vmin;
     margin-bottom: 13vmin;
 }
@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 32vmin;
+    margin-left: 35vmin;
     margin-bottom: 5vmin;
     margin-top: -10vmin;
 }
@@ -27,36 +27,60 @@
 .project-one-image {
     display: flex;
     flex-direction: column;
-    margin-right: 32vmin;
+    margin-right: 35vmin;
     margin-bottom: 10vmin;
     height: 35vmin;
-    width: 35vmin
+    width: 35vmin;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.project-one-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 .project-two-image {
     display: flex;
     flex-direction: column;
-    margin-right: 32vmin;
+    margin-right: 35vmin;
     margin-bottom: 0vmin;
     height: 40vmin;
-    width: 45vmin
+    width: 45vmin;
+    transition: transform 0.3s ease;
 }
+
+.project-two-image:hover {
+    transform: scale(1.1);
+}
+
 .project-three-image {
     display: flex;
     flex-direction: column;
-    margin-right: 32vmin;
+    margin-right: 35vmin;
     margin-bottom: 5vmin;
     height: 40vmin;
-    width: 42vmin
+    width: 42vmin;
+    transition: transform 0.3s ease;
 }
+
+.project-three-image:hover {
+    transform: scale(1.1);
+}
+
 .project-four-image {
     display: flex;
     flex-direction: column;
-    margin-right: 32vmin;
+    margin-right: 35vmin;
     margin-bottom: 5vmin;
     height: 43vmin;
-    width: 43vmin
+    width: 43vmin;
+    transition: transform 0.3s ease;
 }
-  
+
+.project-four-image:hover {
+    transform: scale(1.1);
+}
+
 .project-title {
     font-size: 4vmin;
     margin-bottom: 1.5vmin;
@@ -70,16 +94,20 @@
   
 .project-buttons {
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-  
-.project-buttons {
-    display: flex;
     justify-content: flex-start;
     margin-top: 10px;
 }
-
+  
 .project-buttons > a {
     margin-right: 3vmin;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 7px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
 }
+  
+.project-buttons > a:hover {
+    transform: scale(1.1);
+}
+

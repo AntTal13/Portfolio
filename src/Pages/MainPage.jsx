@@ -5,6 +5,7 @@ import Home from "../Components/Home/Home";
 import NavBar from "../Components/NavBar/NavBar";
 import Projects from "../Components/Projects/Projects";
 import Skills from "../Components/Skills/Skills";
+import './MainPage.css'
 
 export default function MainPage() {
     return (

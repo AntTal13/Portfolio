@@ -67,7 +67,7 @@ export default function Skills() {
     return (
         <div id="skills" className="skills-container">
           <br></br>
-          <h1 className="skills-header">Skills</h1>
+          <h1 className="skills-header">SKILLS</h1>
           <div className="skills-icons">
             {skills.map((skill, index) => (
               <div key={index} className="skill-icon">
