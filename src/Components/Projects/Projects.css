@@ -1,5 +1,5 @@
 .projects-container {
-  background-color: coral;
+    background-image: linear-gradient(to right top, rgb(144, 196, 255), rgb(178, 253, 189));
 }
 
 .projects-header {
@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 35vmin;
+    margin-left: 45vmin;
     margin-bottom: 5vmin;
     margin-top: -10vmin;
 }
@@ -27,7 +27,7 @@
 .project-one-image {
     display: flex;
     flex-direction: column;
-    margin-right: 35vmin;
+    margin-right: 45vmin;
     margin-bottom: 10vmin;
     height: 35vmin;
     width: 35vmin;
@@ -42,7 +42,7 @@
 .project-two-image {
     display: flex;
     flex-direction: column;
-    margin-right: 35vmin;
+    margin-right: 45vmin;
     margin-bottom: 0vmin;
     height: 40vmin;
     width: 45vmin;
@@ -56,7 +56,7 @@
 .project-three-image {
     display: flex;
     flex-direction: column;
-    margin-right: 35vmin;
+    margin-right: 45vmin;
     margin-bottom: 5vmin;
     height: 40vmin;
     width: 42vmin;
@@ -70,7 +70,7 @@
 .project-four-image {
     display: flex;
     flex-direction: column;
-    margin-right: 35vmin;
+    margin-right: 45vmin;
     margin-bottom: 5vmin;
     height: 43vmin;
     width: 43vmin;
@@ -100,14 +100,17 @@
   
 .project-buttons > a {
     margin-right: 3vmin;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid rgb(100, 100, 100);
+    color: rgb(57, 57, 57);
     padding: 5px 7px;
     transition: transform 0.3s ease;
     text-decoration: none;
 }
-  
+
 .project-buttons > a:hover {
     transform: scale(1.1);
+    background: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 

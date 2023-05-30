@@ -3,8 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: #fff;
+    background-color: transparent;
     padding: 2.5vmin;
     position: fixed;
     top: 0;
@@ -25,7 +24,7 @@
 .name {
     margin-left: 7vmin;
     text-decoration: none;
-    color: #fff;
+    color: black;
     text-align: center;
 }
 
@@ -37,16 +36,17 @@
 .right-components > a:last-child {
     margin-right: 7vmin; 
 }
-  
+
 .right-components > a:hover {
     transform: scale(1.1);
 }
-  
+
 .navbar .right-components {
     display: flex;
     align-items: center;
 }
-  
+
 .navbar .right-components a {
+    color: black;
     margin-left: 50px;
 }

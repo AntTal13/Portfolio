@@ -1,13 +1,15 @@
 .contact-container {
     text-align: center;
-    background-color: bisque;
+    background-image: url('https://www.psdgraphics.com/file/basketball-floor-texture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: -4vmin;
 }
   
 .contact-header {
     font-size: 5vmin;
-    padding-top: 10vmin;
-    padding-bottom: 7vmin;
+    padding-top: 17vmin;
+    padding-bottom: 8vmin;
 }
   
 .contact-icons a {

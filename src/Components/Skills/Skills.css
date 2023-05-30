@@ -1,8 +1,10 @@
 .skills-container {
     text-align: center;
     width: 100%;
-    background-color: aquamarine;
-    margin-bottom: -6vmin;
+    background-image: url('https://www.psdgraphics.com/file/basketball-floor-texture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -5vmin;
 }  
 
 .skills-header {

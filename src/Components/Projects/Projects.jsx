@@ -18,10 +18,13 @@ export default function Projects() {
               <a href="https://github.com/AntTal13/Trekspert">Source Code</a>
             </div>
           </div>
-          <div className="project-one-image">
-            <img src="https://i.imgur.com/IwuQ9M6.png" alt="Project Image" />
+          <div>
+            <a className="project-one-image" href="https://trekspert.herokuapp.com/">
+              <img src="https://i.imgur.com/IwuQ9M6.png" alt="Project Image" />
+            </a>
           </div>
         </div>
+  
         <div className="project-wrapper">
           <div className="project-card">
             <h2 className="project-title">MyPlace</h2>
@@ -31,10 +34,13 @@ export default function Projects() {
               <a href="https://github.com/AntTal13/MyPlace">Source Code</a>
             </div>
           </div>
-          <div className="project-two-image">
-            <img src="https://i.imgur.com/3aU89tC.jpeg" alt="Project Image" />
+          <div>
+            <a className="project-two-image" href="https://myplace13.herokuapp.com/">
+              <img src="https://i.imgur.com/3aU89tC.jpeg" alt="Project Image" />
+            </a>
           </div>
         </div>
+  
         <div className="project-wrapper">
           <div className="project-card">
             <h2 className="project-title">Track Your League</h2>
@@ -45,22 +51,27 @@ export default function Projects() {
               <a href="https://github.com/AntTal13/Track-Your-League">Source Code</a>
             </div>
           </div>
-          <div className="project-three-image">
-            <img src="https://i.imgur.com/X7EqsfA.jpeg" alt="Project Image" />
+          <div>
+            <a className="project-three-image" href="https://track-your-league-3623.herokuapp.com/">
+              <img src="https://i.imgur.com/X7EqsfA.jpeg" alt="Project Image" />
+            </a>
           </div>
         </div>
+  
         <div className="project-wrapper">
           <div className="project-card">
             <h2 className="project-title">Blackjack</h2>
             <p className="project-description">Blackjack is a card game where players compete against the house (casino) rather than each other.
-            The objective is to get a hand total of 21 or as close to it as possible. The catch is the dealer's hand must be less than the player's in order to win. Be careful to not total more than 21 in a hand! Whoever does first... YOU LOSE!</p>
+            The objective is to get a hand total of 21 or as close to it as possible. The catch is the dealer's hand must be less than the player's in order to win. Be careful not to total more than 21 in a hand! Whoever does first... YOU LOSE!</p>
             <div className="project-buttons">
               <a href="https://anttal13.github.io/Blackjack-AT/">See Live</a>
               <a href="https://github.com/AntTal13/Blackjack-AT">Source Code</a>
             </div>
           </div>
-          <div className="project-four-image">
-            <img src="https://i.imgur.com/MIWf3WI.jpeg" alt="Project Image" />
+          <div>
+            <a className="project-four-image" href="https://anttal13.github.io/Blackjack-AT/">
+              <img src="https://i.imgur.com/MIWf3WI.jpeg" alt="Project Image" />
+            </a>
           </div>
         </div>
       </div>

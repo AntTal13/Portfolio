@@ -35,7 +35,7 @@ export default function Skills() {
             alt: 'Express'
         },
         {
-            src: 'https://icongr.am/devicon/nodejs-original.svg?size=128&color=currentColor',
+            src: 'https://icongr.am/devicon/nodejs-plain.svg?size=128&color=currentColor',
             alt: 'Node.js'
         },
         {
