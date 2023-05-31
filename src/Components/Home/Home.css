@@ -28,15 +28,14 @@
 }
 
 .resumeTag:hover {
-    color: white;
-    background-color: rgb(0, 0, 0);
     border: 3px solid white;
     border-radius: 3%;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .home-name {
     font-size: 10vmin;
+    font-weight: 400;
     padding-top: 4vmin;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
 }
@@ -44,5 +43,6 @@
 .home-title {
     margin-top: -1vmin;
     font-size: 4vmin;
+    font-weight: 200;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
 }
