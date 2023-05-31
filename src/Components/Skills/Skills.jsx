@@ -68,6 +68,7 @@ export default function Skills() {
         <div id="skills" className="skills-container">
           <br></br>
           <h1 className="skills-header">SKILLS</h1>
+          <hr className="line-break" />
           <div className="skills-icons">
             {skills.map((skill, index) => (
               <div key={index} className="skill-icon">
@@ -76,7 +77,7 @@ export default function Skills() {
               </div>
             ))}
             <div className="and-more">
-              <p>And more...</p>
+              <p className='more'>AND MORE...</p>
             </div>
           </div>
         </div>

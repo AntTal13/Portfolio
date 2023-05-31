@@ -5,6 +5,7 @@ export default function Projects() {
       <div id="projects" className="projects-container">
         <br></br>
         <h1 className="projects-header">PROJECTS</h1>
+        <hr className="line" />
         <div className="project-wrapper">
           <div className="project-card">
             <h2 className="project-title">Trekspert</h2>

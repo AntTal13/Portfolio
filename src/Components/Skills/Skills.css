@@ -4,13 +4,15 @@
     background-image: url('https://www.psdgraphics.com/file/basketball-floor-texture.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: -5vmin;
 }  
 
 .skills-header {
-    font-size: 5vmin;
-    margin-top: 15vmin;
-    margin-bottom: 6vmin;
+    font-size: 6vmin;
+    margin-top: 13vmin;
+    margin-bottom: 4vmin;
+    background: linear-gradient(rgb(75, 75, 75), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .skills-icons {
@@ -19,8 +21,9 @@
     grid-gap: 50px;
     justify-items: center;
     align-items: center;
-    margin-left: 25vmin;
-    margin-right: 25vmin;
+    padding-left: 35vmin;
+    padding-right: 35vmin;
+    padding-top: 2vmin;
 }
   
 .skill-icon {
@@ -69,8 +72,13 @@
   
 .and-more {
     grid-column: span 5;
-    font-size: 3vmin;
-    margin-top: -2vmin;
-    margin-bottom: 10vmin;
+    font-size: 2.5vmin;
+    margin-top: -1vmin;
+    margin-bottom: 13vmin;
     text-align: center;
+}
+
+.more {
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
 }

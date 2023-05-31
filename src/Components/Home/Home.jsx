@@ -5,8 +5,8 @@ export default function Home() {
         <div id="home" className="home-container">
           <br></br>
           <div className='home'>
-          <h1>Hello, I'm Anthony Talarico!</h1>
-          <h1>Software Engineer | Sports Fan</h1>
+          <h1 className='home-name'>Anthony Talarico</h1>
+          <h1 className='home-title'>Software Engineer | Sports Fan</h1>
             <div className="resume">
                 <a className="resumeTag" href="">Resume</a>
             </div>
