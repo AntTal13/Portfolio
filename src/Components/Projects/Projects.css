@@ -122,10 +122,10 @@
 
 .project-buttons > a:hover {
     transform: scale(1.1);
-    background: rgb(5, 82, 0);
-    color: white;
-    border: 2px solid rgb(0, 0, 0);
-    font-weight: bold;
+    background: linear-gradient(to right,  lightblue, rgb(204, 240, 204));
+    color: black;
+    border: .25vmin solid rgb(0, 0, 0);
+    font-weight: 400;
 }
 
 .line {
