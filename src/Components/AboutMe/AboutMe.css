@@ -4,7 +4,7 @@
     align-items: center;
     height: 100vh;
     /* background-image: linear-gradient(white, rgb(220, 220, 220)); */
-    background-image: url('https://wallpapers.com/images/hd/white-stripes-3d-background-hqdgpew0pemnyfaa.jpg');
+    background-image: url('https://www.jadestone-energy.com/wp-content/uploads/2017/06/Jadestone-Background-Final-Light-Grey-03.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -33,7 +33,7 @@
 }
 
 .text-content {
-    font-weight: 200;
+    font-weight: 400;
     color: black;
     border-radius: 10px;
     background-color: rgba(178, 178, 178, 0.6);
