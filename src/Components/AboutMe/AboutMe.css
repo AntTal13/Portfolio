@@ -45,6 +45,7 @@
 }
 
 #picture {
+    margin-right: 2vmin;
     width: 40vmin;
     height: 40vmin;
     border-radius: 50%;

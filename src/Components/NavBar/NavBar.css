@@ -19,7 +19,7 @@
     text-decoration: none;
     text-align: center;
     color: black;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
     transition: color 0.3s;
 }
 
@@ -35,7 +35,7 @@
     text-decoration: none;
     margin: 0 10px;
     text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
     transition: transform 0.1s ease;
 }
   
