@@ -29,8 +29,8 @@
 
 .resumeTag:hover {
     color: white;
-    background-color: black;
-    border: 3px solid darkgray;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid white;
     border-radius: 3%;
     transform: scale(1.2);
 }
