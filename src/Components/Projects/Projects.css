@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
 }
-
+  
 .projects-header {
     background: linear-gradient(rgb(75, 75, 75), rgb(0, 0, 0));
     -webkit-background-clip: text;
@@ -13,28 +13,25 @@
     margin-top: 15vmin;
     margin-bottom: 5vmin;
 }
-
+  
 .project-wrapper {
     margin-top: 5vmin;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-
+  
 .project-card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 40vmin;
     margin-bottom: 5vmin;
-    margin-top: -10vmin;
+    flex-grow: 1;
 }
   
 .project-one-image {
     display: flex;
     flex-direction: column;
-    margin-right: 40vmin;
-    margin-bottom: 10vmin;
     height: 35vmin;
     width: 35vmin;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -48,8 +45,6 @@
 .project-two-image {
     display: flex;
     flex-direction: column;
-    margin-right: 40vmin;
-    margin-bottom: 0vmin;
     height: 40vmin;
     width: 45vmin;
     transition: transform 0.3s ease;
@@ -62,9 +57,6 @@
 .project-three-image {
     display: flex;
     flex-direction: column;
-    margin-right: 40vmin;
-    margin-top: -1vmin;
-    margin-bottom: 5vmin;
     height: 40vmin;
     width: 42vmin;
     transition: transform 0.3s ease;
@@ -77,9 +69,6 @@
 .project-four-image {
     display: flex;
     flex-direction: column;
-    margin-right: 40vmin;
-    margin-top: 1vmin;
-    margin-bottom: 5vmin;
     height: 43vmin;
     width: 43vmin;
     transition: transform 0.3s ease;
@@ -95,7 +84,7 @@
     margin-bottom: 1.5vmin;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
-
+  
 .project-description {
     font-weight: 200;
     font-size: 18px;
@@ -117,15 +106,15 @@
     transition: transform 0.3s ease;
     text-decoration: none;
 }
-
+  
 .project-buttons > a:hover {
     transform: scale(1.1);
-    background: linear-gradient(to right,  lightblue, rgb(204, 240, 204));
+    background: linear-gradient(to right, lightblue, rgb(204, 240, 204));
     color: black;
-    border: .25vmin solid rgb(0, 0, 0);
+    border: 0.25vmin solid rgb(0, 0, 0);
     font-weight: 400;
 }
-
+  
 .line {
     border: none;
     border-top: 1px solid black;
@@ -133,4 +122,62 @@
     margin-bottom: 10vmin;
     max-width: 3.25rem;
     border-width: 0.2rem;
+}
+
+@media (min-width: 768px) {
+    .project-wrapper {
+      justify-content: space-between;
+    }
+  
+    .project-card {
+      padding-left: 7vw;
+      padding-right: 1vw;
+    }
+  
+    .project-one-image,
+    .project-two-image,
+    .project-three-image,
+    .project-four-image {
+      margin-left: 1vw;
+      margin-right: 7vw;
+    }
+
+    .project-two-image {
+        padding-top: 10vmin; 
+    }
+     
+    .project-three-image {
+        padding-top: 6vmin; 
+    }
+     
+    .project-four-image {
+        padding-top: 7vmin; 
+    }
+}
+  
+@media (min-width: 1200px) {
+    .project-card {
+      padding-left: 23vw;
+      padding-right: 1vw;
+    }
+  
+    .project-one-image,
+    .project-two-image,
+    .project-three-image,
+    .project-four-image {
+      margin-left: 1vw;
+      margin-right: 23vw;
+    }
+
+    .project-two-image {
+       padding-top: 10vmin; 
+    }
+    
+    .project-three-image {
+       padding-top: 6vmin; 
+    }
+    
+    .project-four-image {
+       padding-top: 7vmin; 
+    }
 }
