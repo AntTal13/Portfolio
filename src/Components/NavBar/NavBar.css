@@ -56,7 +56,7 @@
     margin-left: 50px;
 }
 
-@media (max-width: 915px) {
+@media (max-width: 1150px) {
     .navbar {
       font-size: 3vmin;
       display: flex;

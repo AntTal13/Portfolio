@@ -135,10 +135,22 @@
     .project-two-image,
     .project-three-image,
     .project-four-image {
-      margin-left: 1vw;
-      margin-right: 3vw;
+        margin-left: 1vw;
+        margin-right: 3vw;
     }
-  
+    
+    .project-two-image{
+        margin-top: 13vmin;
+    }
+    
+    .project-three-image{
+        margin-top: 5vmin;
+    }
+    
+    .project-four-image{
+        margin-top: 5vmin;
+    }
+
     .project-description {
       font-size: 12px;
       padding-left: 1vw;
@@ -150,7 +162,7 @@
     }
   }
 
-@media (min-width: 1200px) {
+@media (min-width: 916px) {
     .project-card {
       padding-left: 23vw;
       padding-right: 1vw;
@@ -169,7 +181,7 @@
     }
     
     .project-three-image {
-       padding-top: 6vmin; 
+       padding-top: 5vmin; 
     }
     
     .project-four-image {
