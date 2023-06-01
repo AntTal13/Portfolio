@@ -74,3 +74,49 @@
     max-width: 3.25rem;
     border-width: 0.2rem;
 }
+
+@media (max-width: 915px) {
+
+    .container {
+        margin-bottom: -70vmin;
+    }
+
+    .content {
+        margin-top: -60vmin;
+    }
+  
+    .image-container {
+        padding-top: 25vmin;
+    }
+  
+    .text-container {
+        margin-top: -2vmin;
+    }
+  
+    .about-me-container {
+        padding-bottom: 5vmin;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1180px) {
+
+    .container {
+        margin-bottom: 0vmin;
+    }
+
+    .content {
+        margin-top: 0vmin;
+    }
+  
+    .image-container {
+        padding-top: 25vmin;
+    }
+  
+    .text-container {
+        margin-top: -2vmin;
+    }
+  
+    .about-me-container {
+        padding-bottom: 5vmin;
+    }
+}

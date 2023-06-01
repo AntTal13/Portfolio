@@ -55,3 +55,63 @@
 .navbar .right-components a {
     margin-left: 50px;
 }
+
+@media (max-width: 915px) {
+    .navbar {
+      font-size: 3vmin;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      padding: 1.5vmin;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      transition: background-image .5s, color .5s;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  
+    .name {
+      font-weight: 250;
+      margin-left: 5vmin;
+      text-decoration: none;
+      text-align: center;
+      color: black;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+      transition: color 0.3s;
+    }
+  
+    .name-component:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s ease;
+    }
+  
+    .right-components > a {
+      font-weight: 250;
+      font-size: 2.5vmin;
+      color: black;
+      text-decoration: none;
+      margin: 0 5px;
+      text-align: center;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+      transition: transform 0.1s ease;
+    }
+  
+    .right-components > a:last-child {
+      margin-right: 5vmin;
+    }
+  
+    .right-components > a:hover {
+      transform: scale(1.1);
+    }
+  
+    .navbar .right-components {
+      display: flex;
+      align-items: center;
+    }
+  
+    .navbar .right-components a {
+      margin-left: 20px;
+    }
+}
