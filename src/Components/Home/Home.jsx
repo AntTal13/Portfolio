@@ -8,7 +8,7 @@ export default function Home() {
           <h1 className='home-name'>Anthony Talarico</h1>
           <h1 className='home-title'>Software Engineer | Sports Fan</h1>
             <div className="resume">
-                <a className="resumeTag" href="https://drive.google.com/file/d/11jQLKHKUiguluHhLxp3fprjqeuop7u5M/view?usp=sharing">Resume</a>
+                <a className="resumeTag" href="https://drive.google.com/file/d/18Y45Adc_YuLyo0Png7_lUnsp1tsdMAPM/view?usp=sharing">Resume</a>
             </div>
           </div>
         </div>
